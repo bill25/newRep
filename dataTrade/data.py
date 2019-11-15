@@ -14,7 +14,7 @@ client = API(access_token=access_token)
 
 GRANULARITY = "H1"
 INSTRUMENT = "EUR_USD"
-
+#hello
 class DataCollector:
     name = "data_service"
 
