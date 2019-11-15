@@ -18,7 +18,7 @@ INSTRUMENT = "EUR_USD"
 class DataCollector:
     name = "data_service"
 
-    @timer(interval=10)
+    @rpc
     def get_ohlc(self):
         """
         :return: List of Market Data with Shape (1,4)
