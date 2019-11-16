@@ -11,10 +11,11 @@ def generate_optimum_portfolio():
     mcs = obj_factory.get_portfolio_generator()
     fr = obj_factory.get_file_repository()
     mc = obj_factory.get_metrics_calculator()
-    price_extractor = obj_factory.get_price_extractor(companies)
-
     print('1. Get companies')
     companies = ce.get_companies_list()
+    price_extractor = obj_factory.get_price_extractor(companies)
+
+
 
     print('2. Get company stock prices')
     
@@ -42,10 +43,11 @@ def generate_optimum_portfolio():
     print('5. Use Monte Carlo Simulation')
     #Generate portfolios with allocations
     portfolios_allocations_df = mcs.generate_portfolios(expected_returns, covariance, settings.RiskFreeRate)
+
     portfolio_risk_return_ratio_df = portfolios_allocation_mapper.map_to_risk_return_ratios(portfolios_allocations_df)
-    
+    print(portfolio_risk_return_ratio_df)
     #Plot portfolios, print max sharpe portfolio & save data
-    cp.plot_portfolios(portfolio_risk_return_ratio_df)
+    #cp.plot_portfolios(portfolio_risk_return_ratio_df)
     max_sharpe_portfolio = mc.get_max_sharpe_ratio(portfolio_risk_return_ratio_df)['Portfolio']
     max_shape_ratio_allocations = portfolios_allocations_df[[ 'Symbol', max_sharpe_portfolio]]
     print(max_shape_ratio_allocations)

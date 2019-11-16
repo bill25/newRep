@@ -12,6 +12,8 @@ class price_extractor:
         print('Initialised Price Extractor')
         self.__api = api
         self.__companies = companies
+        print("hello :",companies)
+
         pass
 
     def get_prices(self,  event, start_date, end_date):
