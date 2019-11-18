@@ -4,8 +4,8 @@
     <list default="true" id="f374bd9f-1c4b-4b21-ae78-5ad1fa914ecd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/object_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/object_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/price_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/price_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573825066502</updated>
-      <workItem from="1573825073021" duration="12318000" />
+      <workItem from="1573825073021" duration="19570000" />
+      <workItem from="1574087122936" duration="68000" />
     </task>
     <task id="LOCAL-00001" summary="add comment">
       <created>1573825211967</created>
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573826525942</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="portofolio opt works parfectly">
+      <created>1573931964275</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573931964275</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +132,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -133,7 +143,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add comment" />
     <MESSAGE value="first change" />
-    <option name="LAST_COMMIT_MESSAGE" value="first change" />
+    <MESSAGE value="portofolio opt works parfectly" />
+    <option name="LAST_COMMIT_MESSAGE" value="portofolio opt works parfectly" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -148,6 +159,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/newRep$object_factory.coverage" NAME="object_factory Coverage Results" MODIFIED="1573914539822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/newRep$main.coverage" NAME="main Coverage Results" MODIFIED="1573922514354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/newRep$main.coverage" NAME="main Coverage Results" MODIFIED="1574087153062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>

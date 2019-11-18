@@ -47,7 +47,7 @@ def generate_optimum_portfolio():
     portfolio_risk_return_ratio_df = portfolios_allocation_mapper.map_to_risk_return_ratios(portfolios_allocations_df)
     print(portfolio_risk_return_ratio_df)
     #Plot portfolios, print max sharpe portfolio & save data
-    #cp.plot_portfolios(portfolio_risk_return_ratio_df)
+    cp.plot_portfolios(portfolio_risk_return_ratio_df)
     max_sharpe_portfolio = mc.get_max_sharpe_ratio(portfolio_risk_return_ratio_df)['Portfolio']
     max_shape_ratio_allocations = portfolios_allocations_df[[ 'Symbol', max_sharpe_portfolio]]
     print(max_shape_ratio_allocations)
