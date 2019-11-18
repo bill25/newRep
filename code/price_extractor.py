@@ -23,7 +23,11 @@ class price_extractor:
         for i in symbols:
             try:
                 tmp = web.DataReader(i, self.__api, start_date, end_date)
-                print('Fetched prices for: '+i)                
+                print('Fetched prices for: '+i)
+                print(tmp.head())
+                for col in tmp.columns:
+                    print(col)
+
             except:
                 print('Issue getting prices for: '+i)
             else:

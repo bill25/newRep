@@ -24,7 +24,7 @@ def generate_optimum_portfolio():
     closing_prices = price_extractor.get_prices(settings.PriceEvent, start_date, end_date)
 
     #plot stock prices & save data to a file
-    cp.plot_prices(closing_prices)    
+    cp.plot_prices(closing_prices)
     fr.save_to_file(closing_prices, 'StockPrices')
 
     print('3. Calculate Daily Returns')    
