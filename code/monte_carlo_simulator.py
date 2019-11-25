@@ -11,16 +11,22 @@ class monte_carlo_simulator:
     def generate_portfolios(self, returns, covariance, risk_free_rate):
         
         portfolios_allocations_df = pd.DataFrame({'Symbol':returns.index,'MeanReturn':returns.values})
+
         extra_data = pd.DataFrame({'Symbol':['Return','Risk','SharpeRatio'], 'MeanReturn':[0,0,0]})
-        portfolios_allocations_df = portfolios_allocations_df.append(extra_data, ignore_index=True)        
+
+        portfolios_allocations_df = portfolios_allocations_df.append(extra_data, ignore_index=True)
+
 
         portfolio_size = len(returns.index)
         np.random.seed(0)
 
+
         #Adding equal allocation so I can assess how good/bad it is
         equal_allocations = self.get_equal_allocations(portfolio_size)
+
         portfolio_id = 'EqualAllocationPortfolio'
-        self.compute_portfolio_risk_return_sharpe_ratio(portfolio_id, equal_allocations, portfolios_allocations_df, returns, covariance, risk_free_rate) 
+
+        self.compute_portfolio_risk_return_sharpe_ratio(portfolio_id, equal_allocations, portfolios_allocations_df, returns, covariance, risk_free_rate)
 
         #Generating portfolios
         counter_to_print =  int(self.__numberOfPortfolios/10)
@@ -41,19 +47,24 @@ class monte_carlo_simulator:
         expected_returns = self.__return_function(returns, allocations)
         #Calculate risk of portfolio
         risk = self.__risk_function(allocations,covariance)
+
+
         #Calculate Sharpe ratio of portfolio
         sharpe_ratio = self.__mc.calculate_sharpe_ratio(risk, expected_returns, risk_free_rate)
-        
+
         portfolio_data = allocations
         portfolio_data = np.append(portfolio_data,expected_returns)
         portfolio_data = np.append(portfolio_data,risk)
         portfolio_data = np.append(portfolio_data,sharpe_ratio)
-        #add data to the dataframe            
+        #add data to the dataframe
         portfolios_allocations_df[portfolio_id] = portfolio_data
+
+
 
     def get_equal_allocations(self, portfolio_size):
         n = float(1/portfolio_size)
         allocations = np.repeat(n, portfolio_size)
+        print(allocations)
         return allocations
 
     def get_random_allocations(self, portfolio_size):

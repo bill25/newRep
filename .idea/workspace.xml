@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f374bd9f-1c4b-4b21-ae78-5ad1fa914ecd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chart_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/chart_plotter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/price_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/price_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/mappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/mappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/monte_carlo_simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/monte_carlo_simulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/optimiser_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/optimiser_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -99,6 +102,8 @@
       <updated>1573825066502</updated>
       <workItem from="1573825073021" duration="19570000" />
       <workItem from="1574087122936" duration="68000" />
+      <workItem from="1574087205966" duration="4697000" />
+      <workItem from="1574240983202" duration="27838000" />
     </task>
     <task id="LOCAL-00001" summary="add comment">
       <created>1573825211967</created>
@@ -121,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573931964275</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="portofolio opt works parfectly">
+      <created>1574087332072</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574087332072</updated>
+    </task>
+    <task id="LOCAL-00005" summary="portofolio opt works parfectly">
+      <created>1574087376472</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1574087376472</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +178,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/newRep$object_factory.coverage" NAME="object_factory Coverage Results" MODIFIED="1573914539822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
-    <SUITE FILE_PATH="coverage/newRep$main.coverage" NAME="main Coverage Results" MODIFIED="1574087153062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
+    <SUITE FILE_PATH="coverage/newRep$main.coverage" NAME="main Coverage Results" MODIFIED="1574694502881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />
   </component>
 </project>

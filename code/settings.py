@@ -9,13 +9,13 @@ class settings:
     Optimisersettings = {}
     OptimiserType = 'OLS'
     CompaniesUrl = 'https://en.wikipedia.org/wiki/NASDAQ-100'#'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
-    NumberOfPortfolios = 100#0000#0
+    NumberOfPortfolios = 100000#0#0
     API = 'yahoo'
     YearsToGoBack = 3
     RiskFreeRate = 0
     CompanyFetchMode = "PreFixed" #Auto
     MyCompanies = ['ZM','UBER','SWI','RNG','CRWD', 'WORK', 'SYMC']
-    PortfolioOptimisationPath = 'C:\Temp\PortfolioOptimisation.xlsx'
+    PortfolioOptimisationPath = 'C:/newRep/data/PortfolioOptimisation.xlsx'
     RiskFunction = risk_return_calculator.calculate_portfolio_risk
     ReturnFunction = risk_return_calculator.calculate_portfolio_expectedreturns
     AssetsExpectedReturnsFunction = risk_return_calculator.calculate_assets_expectedreturns

@@ -12,8 +12,10 @@ class optimiser:
         self.__return_function = return_function
 
     def generate_portfolios(self, returns, covariance, risk_free_rate):
-        x0 = np.ones(self.__portfolio_size) * (1.0 / self.__portfolio_size) 
+        x0 = np.ones(self.__portfolio_size) * (1.0 / self.__portfolio_size)
+
         bounds = ((0, 1),) * (self.__portfolio_size)
+
 
         portfolios_allocations_df = pd.DataFrame({'Symbol':returns.index,'MeanReturn':returns.values})
         extra_data = pd.DataFrame({'Symbol':['Return','Risk','SharpeRatio'], 'MeanReturn':[0,0,0]})

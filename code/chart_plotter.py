@@ -18,7 +18,7 @@ class chart_plotter:
                  (x,y), # this is the point to label
                  textcoords="offset points", # how to position the text
                  xytext=(0,10), # distance from text to points (x,y)
-                 ha='center') # horizontal alignment can be left, right or center
+                 ha="left") # horizontal alignment can be left, right or center
 
     def plot_portfolios(self, df):
         # find min Volatility & max sharpe values in the dataframe (df)
@@ -38,15 +38,16 @@ class chart_plotter:
         self.plot_single_point(x,y,'Max Sharpe Ratio: '+name, 'green')
         x = min_risk['Risk']
         y = min_risk['Return']
-        name = min_risk['Portfolio']
+        name1 = min_risk['Portfolio']
         self.plot_single_point(x,y,'Min Risk: '+name, 'red')
 
         equal_allocations_portfolio = df.loc[df['Portfolio'] == 'EqualAllocationPortfolio']
         x = equal_allocations_portfolio['Risk']
         y = equal_allocations_portfolio['Return']
         name = equal_allocations_portfolio['Portfolio']
-        self.plot_single_point(x,y,'Portfolio: '+name, 'black')
-    
+
+        self.plot_single_point(x,y,'equal_allocations_portfolio', 'black')
+
 
     def plot_prices(self, closing_prices):
         ax = plt.gca()
