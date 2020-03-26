@@ -1,5 +1,4 @@
-from nameko.rpc import rpc, RpcProxy
-from nameko.timer import timer
+
 from keras.models import Sequential
 from keras.layers import Dense
 from keras import regularizers
@@ -19,7 +18,7 @@ class Trainer:
 
     y = RpcProxy("data_service")
 
-    @staticmethod
+
     def get_model():
         """
         Here we define our model Layers using Keras
@@ -49,7 +48,7 @@ class Trainer:
     decimal_figures = 6
     y_change_threshold = 0.001
 
-    @timer(interval=6000)
+
     def retrain(self):
         """
         Retrains a model for a specific a) trading instrument, b) timeframe, c) input shape
@@ -71,7 +70,7 @@ class Trainer:
         filename = datetime.datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
         model.save(filename + '-EUR_USD_H1')
 
-    @rpc
+
     def process(self, candles, type='train'):
         """
         processing candles to a format/shape consumable for the model
@@ -79,8 +78,7 @@ class Trainer:
         :return: X: numpy.ndarray, Y: numpy.ndarray
         """
 
-        dataset_train = pd.read_csv('NSE-TATAGLOBAL.csv')
-        training_set = dataset_train.iloc[:, 1:2].values
+
 
         if type=='train':
             X = np.ndarray(shape=(0, 4))
