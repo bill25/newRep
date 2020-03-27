@@ -1,27 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f374bd9f-1c4b-4b21-ae78-5ad1fa914ecd" name="Default Changelist" comment="portofolio opt works parfectly">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backtesting/backtesting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataTrade/trainernew.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/connectionSocket.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/connecttest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/lstmtest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/socketservertest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/trader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/train.py" afterDir="false" />
+    <list default="true" id="f374bd9f-1c4b-4b21-ae78-5ad1fa914ecd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/.idea/Machine-Learning-for-Stock-Market---LiveEdu.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/oandaapi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/overview-microservices.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/trader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/trainer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/marcketAnalyst/trainernew.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/companies_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/companies_extractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/object_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/object_factory.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/price_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/price_extractor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataTrade/oandaapi.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataTrade/oandaapi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dataTrade/trainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/dataTrade/trainer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/calculator.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/calculator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/chart_plotter.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/chart_plotter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/companies_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/companies_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/file_repository.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/file_repository.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/mappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/mappers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/monte_carlo_simulator.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/monte_carlo_simulator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/object_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/object_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/optimiser_factory.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/optimiser_factory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/portfolio_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/portfolio_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/price_extractor.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/price_extractor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/portfolioOptimiser/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/.idea/Machine-Learning-for-Stock-Market---LiveEdu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-10-24-27-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-10-24-42-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-10-47-55-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-10-51-31-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-11-08-49-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-11-10-01-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-11-48-00-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-11-58-02-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-12-02-07-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/2018-09-22-12-06-47-EUR_USD_H1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/oandaapi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/overview-microservices.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/portfolio/PortfolioOptimisation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/trader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/trainer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataTrade/trainernew.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/connectionSocket.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/connectionSocket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/connecttest.py" beforeDir="false" afterPath="$PROJECT_DIR$/server/connecttest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -213,7 +252,7 @@
       <workItem from="1583936692259" duration="702000" />
       <workItem from="1584093904005" duration="41000" />
       <workItem from="1584700574235" duration="72271000" />
-      <workItem from="1585073839744" duration="27256000" />
+      <workItem from="1585073839744" duration="35363000" />
     </task>
     <task id="LOCAL-00001" summary="add comment">
       <created>1573825211967</created>
@@ -257,7 +296,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574694596390</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="portofolio opt works parfectly">
+      <created>1585238139358</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1585238139358</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +346,7 @@
     <SUITE FILE_PATH="coverage/newRep$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1574778796753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oandabot/oandapybot" />
     <SUITE FILE_PATH="coverage/newRep$lstmtest.coverage" NAME="lstmtest Coverage Results" MODIFIED="1585159413227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/newRep$socketserver.coverage" NAME="socketserver Coverage Results" MODIFIED="1585063766867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
-    <SUITE FILE_PATH="coverage/newRep$connecttest.coverage" NAME="connecttest Coverage Results" MODIFIED="1585237246984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
+    <SUITE FILE_PATH="coverage/newRep$connecttest.coverage" NAME="connecttest Coverage Results" MODIFIED="1585305606181" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/newRep$backtest.coverage" NAME="backtest Coverage Results" MODIFIED="1574778450449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/oandabot/oandapybot" />
     <SUITE FILE_PATH="coverage/newRep$connectionSocket.coverage" NAME="connectionSocket Coverage Results" MODIFIED="1585068584832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/server" />
     <SUITE FILE_PATH="coverage/newRep$object_factory.coverage" NAME="object_factory Coverage Results" MODIFIED="1573914539822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/code" />

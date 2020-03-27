@@ -41,12 +41,12 @@ class socketserver:
             return self.cummdata
 
     def send_trading_assets(self,asstes):
-        self.sock.listen(1)
+
         self.conn, self.addr = self.sock.accept()
         print('connected to', self.addr)
-        assets = ''
+        assets = ','
         self.conn.send(bytes(assets.join(asstes), "utf-8"))
-        print((assets.join(asstes)))
+
 
 
     def __del__(self):
